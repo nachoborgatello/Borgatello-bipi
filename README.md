@@ -49,11 +49,12 @@ Haré un e-commerce de productos tecnológicos y mi público rondará entre los 
 
 ## Paleta de colores ##
 
-- #BCDCF4
-- #2C598D
-- #84ACD4
-- #E2F0F8
-- #84A4D4
+#161515
+#101010
+#282727
+#ffffff
+#2eb80b
+#ff7926
 
 ## Logo ##
 <img src="logo/bipi.png" />
