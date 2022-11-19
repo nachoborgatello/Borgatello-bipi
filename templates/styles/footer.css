@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_img{
+    max-width: 5em;
+    object-fit: cover;
+    margin: 1em;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_a {
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 0.2em 0.5em;
+    font-size: 1.5em;
+    color: white;
+}
+
+#copy{
+    padding: 1.5em 0 4em 0;
+    color: white;
+    font-size: 1em;
+}
+
+

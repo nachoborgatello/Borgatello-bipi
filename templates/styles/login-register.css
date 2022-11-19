@@ -1,0 +1,58 @@
+h1 {
+  display: none;
+}
+
+.form_container {
+  padding: 3em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  border-radius: 15px;
+  background-color: #282727;
+}
+
+input,
+button[type="submit"] {
+  padding: 0.5em 0.8em;
+  margin-bottom: 0.8em;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  box-shadow: 0 5px 3px rgb(64, 51, 110);
+}
+
+label {
+  margin-bottom: 0.5em;
+  font-size: 0.7em;
+  color: white;
+  text-align: center;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+button[type="submit"] {
+  align-self: center;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #9b9b9b;
+  width: 110px;
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #d9d9d9;
+  font-size: 0.7em;
+  margin-top: 2em;
+  text-align: center;
+}

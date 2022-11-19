@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/root.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/login-register.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <img class="logo-img" src="../src/bipi.png" alt="logo" />
+          <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Equipos</a></li>
+              <li><a href="#">Componentes</a></li>
+              <li><a href="#">Perifericos</a></li>
+              <li><a href="#">Internet</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Registro</h1>
+      <div class="form_container">
+        <form action="" method="post">
+          <!-- Email -->
+          <label for="email">Correo electrónico</label>
+          <input
+            required
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+          <!-- Password -->
+          <label for="password">Contraseña</label>
+          <input
+            required
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Contraseña"
+          />
+          <!-- Submit -->
+          <button type="submit">Ingresar</button>
+          <a href="#">Olvidé mi Contraseña</a>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <img class="footer_img" src="../src/bipi.png" alt="logo" />
+      <nav class="footer_menu">
+        <a class="footer_a" href="#">Home</a>
+        <a class="footer_a" href="#">Nosotros</a>
+        <a class="footer_a" href="#">Contacto</a>
+      </nav>
+      <p id="copy">Copyright 2022</p>
+    </footer>
+  </body>
+</html>
